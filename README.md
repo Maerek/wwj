@@ -9,3 +9,6 @@ Aby dodać ten zestaw szablonów do JOSM:
 * W polu Adres/URL wklejamy następujący link: https://raw.githubusercontent.com/Maerek/wwj/main/wszystkie_w_jednym.zip
 * Możemy też nadać tam nazwę jeśli chcemy
 * Klikamy przycisk zatwierdź i zamykamy panel ustawień
+
+# Logotypy firm
+Logotypy firm są zastrzeżonym symbolem danych przedsiębiorstw.
