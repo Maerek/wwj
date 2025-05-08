@@ -1,1 +1,2 @@
 man_made=surveillance - kamera
+man_made=graduation_tower - tężnia
