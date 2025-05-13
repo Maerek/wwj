@@ -2,3 +2,4 @@ man_made=surveillance - kamera
 man_made=graduation_tower - tężnia
 pipeline=marker; substance=gas - znacznik rury z gazem (zrobić też inne)
 Agata Meble ,,Megaskrytka Agata" - automat paczkowy Agata Meble
+vending=bottle_return - butelkomaty do zwrotu butelek
