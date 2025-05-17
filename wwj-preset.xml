@@ -300,6 +300,10 @@
 				<check key="payment:debit_cards" text="Wypłata na kartę debetową" value_on="yes" value_off="no" default="off"/>
 				<check key="payment:token" text="Paragon/żeton z możliwością wymiany na gotówkę" value_on="yes" value_off="no" default="off"/>
 			</item>
+			<item name="Stół publiczny" type="node" preset_name_label="true" icon="stol.png">
+				<key key="amenity" value="table">
+				<check key="sport" text="Stół szachowy" value_on="chess" disable_off="true"/>
+			</item>
 		</group>
 		<group name="Sklepy gotowe">
 			<item name="Action" pl.name="Action" type="node,closedway" preset_name_label="true" icon="action.png">
