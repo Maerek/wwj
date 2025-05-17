@@ -5,5 +5,4 @@ vending=bottle_return - butelkomaty do zwrotu butelek
 amenity=lounger - leżak publiczny
 amenity=table - stół
 amenity=table + sport=chess - stół do gry w szachy
-vending=bottle_return - butelkomat
 man_made=gantry - bramownica nad drogą
