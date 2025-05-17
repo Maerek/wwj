@@ -271,7 +271,7 @@
 				</roles>
 			</item>
 			<item name="Kamera monitoringu" type="node" preset_name_label="true" icon="kamera.png">
-				<key key="man made" value="surveillance"/>
+				<key key="man_made" value="surveillance"/>
 				<combo key="surveillance:type" text="Rodzaj kamery" values="camera, ALPR" display_values="zwykła kamera,kamera z automatycznym odczytem rejestracji samochodowych"/>
 				<text key="height" text="Wysokość motażu"/>
 				<text key="operator" text="Operator"/>
