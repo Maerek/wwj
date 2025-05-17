@@ -283,6 +283,23 @@
 				<combo key="camera:mount" text="Mocowanie kamery" values="wall,pole,ceiling,street_light,building,traffic_signals,roof,gantry" display_values="na ścianie/murze,na słupie,na suficie,na latarnii ulicznej,na budynku,na sygnalizacji świetlnej,na dachu,na bramownicy/wysięgniku"/>
 				<text key="ref" text="Numer referencyjny"/>
 			</item>
+			<item name="Butelkomat" type="node" preset_name_label="true" icon="butelkomat.png">
+				<key key="vending" value="bottle_return"/>
+				<text key="operator" text="Operator"/>
+				<text key="opening_hours" text="Godziny otwarcia"/>
+				<check key="wheelchair" value_on="yes" value_off="no"/>
+				<space />
+				<label text="Przyjmowane surowce:"/>
+				<check key="recycling:cans" text="Puszki" value_on="yes" value_off="no" default="on"/>
+				<check key="recycling:glass_bottles" text="Butelki szklane" value_on="yes" value_off="no" default="off"/>
+				<check key="recycling:plastic_bottles" text="Butelki plastikowe" value_on="yes" value_off="no" default="on"/>
+				<space />
+				<label text="Metody wypłaty:"/>
+				<check key="payment:coins" text="Monety" value_on="yes" value_off="no" default="off"/>
+				<check key="payment:notes" text="Wydruk (bon)" value_on="yes" value_off="no" default="on"/>
+				<check key="payment:debit_cards" text="Wypłata na kartę debetową" value_on="yes" value_off="no" default="off"/>
+				<check key="payment:token" text="Paragon/żeton z możliwością wymiany na gotówkę" value_on="yes" value_off="no" default="off"/>
+			</item>
 		</group>
 		<group name="Sklepy gotowe">
 			<item name="Action" pl.name="Action" type="node,closedway" preset_name_label="true" icon="action.png">
