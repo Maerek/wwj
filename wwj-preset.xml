@@ -287,7 +287,7 @@
 				<key key="vending" value="bottle_return"/>
 				<text key="operator" text="Operator"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
-				<check key="wheelchair" value_on="yes" value_off="no"/>
+				<check key="wheelchair" text="Wózki inwalidzkie" value_on="yes" value_off="no"/>
 				<space />
 				<label text="Przyjmowane surowce:"/>
 				<check key="recycling:cans" text="Puszki" value_on="yes" value_off="no" default="on"/>
