@@ -270,6 +270,19 @@
 					<role key="stop" text="Miejsce zatrzymania" requisite="required" type="node" member_expression="public_transport=stop_position"/>
 				</roles>
 			</item>
+			<item name="Kamera monitoringu" type="node" preset_name_label="true" icon="kamera.png">
+				<key key="man made" value="surveillance"/>
+				<combo key="surveillance:type" text="Rodzaj kamery" values="camera, ALPR" display_values="zwykła kamera,kamera z automatycznym odczytem rejestracji samochodowych"/>
+				<text key="height" text="Wysokość motażu"/>
+				<text key="operator" text="Operator"/>
+				<combo key="surveillance" text="Miejsce objęte monitoringiem" values="indoor,outdoor,public,average_speed" display_values="wewnętrzna,zewnętrzna,publiczna (podgląd online),do mierzenia prędkości"/>
+				<combo key="surveillance:zone" text="Strefa monitoringu" values="traffic,town,building,parking,entrace" display_values="ruch drogowy,miasto,w budynku,parking,wejście do budynku"/>
+				<combo key="camera:type" text="Rodzaj kamery" values="fixed,dome,panning" display_values="nieruchoma,kopułkowa,obrotowa"/>
+				<text key="camera:angle" text="Kąt nachylenia kamery względem ziemi"/>
+				<text key="camera:direction" text="Kierunek kamery"/>
+				<combo key="camera:mount" text="Mocowanie kamery" values="wall,pole,ceiling,street_light,building,traffic_signals,roof,gantry" display_values="na ścianie/murze,na słupie,na suficie,na latarnii ulicznej,na budynku,na sygnalizacji świetlnej,na dachu,na bramownicy/wysięgniku"/>
+				<text key="ref" text="Numer referencyjny"/>
+			</item>
 		</group>
 		<group name="Sklepy gotowe">
 			<item name="Action" pl.name="Action" type="node,closedway" preset_name_label="true" icon="action.png">
