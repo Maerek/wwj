@@ -1,6 +1,4 @@
 pipeline=marker; substance=gas - znacznik rury z gazem (zrobić też inne)
 Agata Meble ,,Megaskrytka Agata" - automat paczkowy Agata Meble
 amenity=lounger - leżak publiczny
-amenity=table - stół
-amenity=table + sport=chess - stół do gry w szachy
 man_made=gantry - bramownica nad drogą
