@@ -304,6 +304,23 @@
 				<key key="amenity" value="table">
 				<check key="sport" text="Stół szachowy" value_on="chess" disable_off="true"/>
 			</item>
+			<item name="Tężnia" type="node,closedway" preset_name_label="true" icon="teznia.png">
+				<key key="man_made" value="graduation_tower"/>
+				<text key="operator" text="Operator"/>
+				<text key="opening_hours" text="Godziny otwarcia"/>
+				<text key="brine_source" text="Pochodzenie solanki"/>
+				<check key="building" text="Budynek" value_on="yes" disable_off="true"/>
+				<check key="tourism" text="Atrakcja turystyczna" value_on="attraction" disable_off="true"/>
+				<check key="lit" text="Oświetlenie" value_on="yes" value_off="no"/>
+				<check key="fee" text="Opłata" value_on="yes" value_off="no"/>
+				<check key="seasonal" text="Sezonowy" value_on="yes" value_off="no"/>
+				<text key="start_date" text="Data otwarcia tężni"/>
+				<space />
+				<label text="Wymiary:"/>
+				<text key="length" text="Długość"/>
+				<text key="width" text="Szerokość"/>
+				<text key="height" text="Wysokość"/>
+			</item>
 		</group>
 		<group name="Sklepy gotowe">
 			<item name="Action" pl.name="Action" type="node,closedway" preset_name_label="true" icon="action.png">
