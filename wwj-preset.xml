@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Autor: Marek Kłaput -->
-<!-- v.2025.03.24.1 -->
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.3_2025-04-27">
+<!-- v.2025.05.18.1 -->
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.4_2025-05-18">
 	<group name="Wszystkie w jednym">
 		<group name="Automaty paczkowe" icon="paczka.png">
 			<item name="Paczkomat InPost" icon="inpost.png" type="node,closedway" preset_name_label="true">
@@ -320,6 +320,12 @@
 				<text key="length" text="Długość"/>
 				<text key="width" text="Szerokość"/>
 				<text key="height" text="Wysokość"/>
+			</item>
+			<item name="Leżak publiczny" type="node,closedway" preset_name_label="true" icon="lezak.png"/>
+				<key key="amenity" value="lounger"/>
+				<check key="seasonal" text="Sezonowy" value_on="yes" value_off="no"/>
+				<text key="material" text="Materiał (ang)"/><!-- POPRAWIĆ NA COMBO!!! -->
+				<text key="operator" text="Operator"/>
 			</item>
 		</group>
 		<group name="Sklepy gotowe">

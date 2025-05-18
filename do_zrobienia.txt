@@ -1,3 +1,2 @@
 Agata Meble ,,Megaskrytka Agata" - automat paczkowy Agata Meble
-amenity=lounger - leżak publiczny
 man_made=gantry - bramownica nad drogą
