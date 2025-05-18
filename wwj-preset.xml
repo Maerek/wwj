@@ -321,7 +321,7 @@
 				<text key="width" text="Szerokość"/>
 				<text key="height" text="Wysokość"/>
 			</item>
-			<item name="Leżak publiczny" type="node,closedway" preset_name_label="true" icon="lezak.png"/>
+			<item name="Leżak publiczny" type="node,closedway" preset_name_label="true" icon="lezak.png">
 				<key key="amenity" value="lounger"/>
 				<check key="seasonal" text="Sezonowy" value_on="yes" value_off="no"/>
 				<text key="material" text="Materiał (ang)"/><!-- POPRAWIĆ NA COMBO!!! -->
