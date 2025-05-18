@@ -1,4 +1,3 @@
-man_made=graduation_tower - tężnia
 pipeline=marker; substance=gas - znacznik rury z gazem (zrobić też inne)
 Agata Meble ,,Megaskrytka Agata" - automat paczkowy Agata Meble
 amenity=lounger - leżak publiczny
