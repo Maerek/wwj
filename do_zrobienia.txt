@@ -2,3 +2,4 @@ Agata Meble ,,Megaskrytka Agata" - automat paczkowy Agata Meble
 man_made=gantry - bramownica nad drogą
 location=indoor do butelkomatu
 leisure=hammock - leżak
+conveying=yes/forward/backward - ruch schodów ruchomych 
