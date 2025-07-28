@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Autor: Marek Kłaput -->
-<!-- v.2025.05.18.1 -->
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.4_2025-05-18">
+<!-- v.2025.07.28.1 -->
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.5_2025-07-28">
 	<group name="Wszystkie w jednym">
 		<group name="Automaty paczkowe" icon="paczka.png">
 			<item name="Paczkomat InPost" icon="inpost.png" type="node,closedway" preset_name_label="true">
@@ -99,7 +99,7 @@
 			</item>
 			<item name="DHL POP BOX" icon="dhl.png" type="node,closedway" preset_name_label="true">
 				<key key="amenity" value="parcel_locker"/>
-				<key key="brand" value="DHL POP BOX"/>
+				<key key="brand" value="DHL BOX 24/7"/>
 				<key key="brand:wikidata" value="Q115568785"/>
 				<key key="operator" value="DHL"/>
 				<key key="operator:wikidata" value="Q489815"/>
