@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Autor: Marek Kłaput -->
-<!-- v.2025.07.28.1 -->
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.5_2025-07-28">
+<!-- v.2025.09.19.1 -->
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.6_2025-09-19">
 	<group name="Wszystkie w jednym">
 		<group name="Automaty paczkowe" icon="paczka.png">
 			<item name="Paczkomat InPost" icon="inpost.png" type="node,closedway" preset_name_label="true">
@@ -326,6 +326,25 @@
 				<check key="seasonal" text="Sezonowy" value_on="yes" value_off="no"/>
 				<text key="material" text="Materiał (ang)"/><!-- POPRAWIĆ NA COMBO!!! -->
 				<text key="operator" text="Operator"/>
+			</item>
+			<item name="Typowa stacja ładowania pojazdów Lidl" type="node,closedway" preset_name_label="true" icon="lidl_ev.png">
+				<key key="amenity" value="charging_station"/>
+				<key key="operator" value="Lidl"/>
+				<text key="network" text="Sieć ładowarek (jeśli istnieje)"/>
+				<text key="capacity" text="Ilość miejsc do ładowania (zazwyczaj 2)" default="2"/>
+				<text key="ref" text="Numer ref"/>
+				<text key="socket:type2" text="Gniazdo Type 2 (oznaczane jako C w białym 6-ciokącie, zazwyczaj 1)" default="1"/>
+				<text key="socket:type2_combo" text="Gniazdo Type 2 Combo (oznaczane jako L w czarnym 6-ciokącie, zazwyczaj 2)" default="2"/>
+				<check key="fee" text="Opłata" value_on="yes" value_off="no" default="on"/>
+				<text key="opening_hours" text="Godziny otwarcia"/>
+				<key key="authentication:app" value="yes"/>
+				<key key="authentication:none" value="yes"/>
+				<key key="covered" value="no"/>
+				<key key="hgv" value="no"/>
+				<key key="motorcar" value="yes"/>
+				<key key="motorcycle" value="yes"/>
+				<space />
+				<label text="Ukryte tagi: operator - Lidl, odblokowanie za pomocą aplikacji i na ekranie urządzenia, niezadaszony, dla motocykli i osobówek, nie dla ciężarówek"/>
 			</item>
 		</group>
 		<group name="Sklepy gotowe">
