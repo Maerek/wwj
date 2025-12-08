@@ -3,3 +3,4 @@ man_made=gantry - bramownica nad drogą
 location=indoor do butelkomatu
 leisure=hammock - leżak
 conveying=yes/forward/backward - ruch schodów ruchomych 
+brand:wikidata=Q137293672 - do castomatu
