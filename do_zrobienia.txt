@@ -1,8 +1,3 @@
 Agata Meble ,,Megaskrytka Agata" - automat paczkowy Agata Meble
 man_made=gantry - bramownica nad drogą
-location=indoor do butelkomatu
-leisure=hammock - leżak
 conveying=yes/forward/backward - ruch schodów ruchomych 
-brand:wikidata=Q137293672 - do castomatu
-Aldi - poprawa wielkości liter
-Butelkomat - poprawa tagowania

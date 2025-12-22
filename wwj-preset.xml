@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Autor: Marek Kłaput -->
-<!-- v.2025.09.19.1 -->
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.7_2025-11-19">
+<!-- v.2025.12.22.1 -->
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.8_2025-12-22">
 	<group name="Wszystkie w jednym">
 		<group name="Automaty paczkowe" icon="paczka.png">
 			<item name="Paczkomat InPost" icon="inpost.png" type="node,closedway" preset_name_label="true">
@@ -156,6 +156,7 @@
 			<item name="Castomat (Castorama)" icon="castorama.png" type="node,closedway" preset_name_label="true">
 				<key key="amenity" value="parcel_locker"/>
 				<key key="brand" value="Castomat"/>
+				<key key="brand:wikidata" value="Q137293672"/>
 				<key key="operator" value="Castorama"/>
 				<key key="operator:wikidata" value="Q966971"/>
 				<key key="operator:wikipedia" value="pl:Castorama"/>
@@ -284,21 +285,23 @@
 				<text key="ref" text="Numer referencyjny"/>
 			</item>
 			<item name="Butelkomat" type="node" preset_name_label="true" icon="butelkomat.png">
+				<key key="amenity" value="vending_machine"/>
 				<key key="vending" value="bottle_return"/>
 				<text key="operator" text="Operator"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<check key="wheelchair" text="Wózki inwalidzkie" value_on="yes" value_off="no"/>
-				<space />
+				<check key="location" text="Wewnątrz" value_on="indoor" disable_off="true"/>
+				<space/>
 				<label text="Przyjmowane surowce:"/>
-				<check key="recycling:cans" text="Puszki" value_on="yes" value_off="no" default="on"/>
-				<check key="recycling:glass_bottles" text="Butelki szklane" value_on="yes" value_off="no" default="off"/>
-				<check key="recycling:plastic_bottles" text="Butelki plastikowe" value_on="yes" value_off="no" default="on"/>
-				<space />
+				<check key="recycling:cans" text="Puszki" value_on="yes" value_off="no"/>
+				<check key="recycling:glass_bottles" text="Butelki szklane" value_on="yes" value_off="no"/>
+				<check key="recycling:plastic_bottles" text="Butelki plastikowe" value_on="yes" value_off="no"/>
+				<space/>
 				<label text="Metody wypłaty:"/>
 				<check key="payment:coins" text="Monety" value_on="yes" value_off="no" default="off"/>
 				<check key="payment:notes" text="Wydruk (bon)" value_on="yes" value_off="no" default="on"/>
 				<check key="payment:debit_cards" text="Wypłata na kartę debetową" value_on="yes" value_off="no" default="off"/>
-				<check key="payment:token" text="Paragon/żeton z możliwością wymiany na gotówkę" value_on="yes" value_off="no" default="off"/>
+				<check key="payment:token" text="Paragon/żeton z możliwością wymiany na gotówkę" value_on="yes" value_off="no" default="on"/>
 			</item>
 			<item name="Stół publiczny" type="node" preset_name_label="true" icon="stol.png">
 				<key key="amenity" value="table"/>
@@ -315,7 +318,7 @@
 				<check key="fee" text="Opłata" value_on="yes" value_off="no"/>
 				<check key="seasonal" text="Sezonowy" value_on="yes" value_off="no"/>
 				<text key="start_date" text="Data otwarcia tężni"/>
-				<space />
+				<space/>
 				<label text="Wymiary:"/>
 				<text key="length" text="Długość"/>
 				<text key="width" text="Szerokość"/>
@@ -324,7 +327,8 @@
 			<item name="Leżak publiczny" type="node,closedway" preset_name_label="true" icon="lezak.png">
 				<key key="amenity" value="lounger"/>
 				<check key="seasonal" text="Sezonowy" value_on="yes" value_off="no"/>
-				<text key="material" text="Materiał (ang)"/><!-- POPRAWIĆ NA COMBO!!! -->
+				<text key="material" text="Materiał (ang)"/>
+				<!-- POPRAWIĆ NA COMBO!!! -->
 				<text key="operator" text="Operator"/>
 			</item>
 			<item name="Typowa stacja ładowania pojazdów Lidl" type="node,closedway" preset_name_label="true" icon="lidl_ev.png">
@@ -343,8 +347,12 @@
 				<key key="hgv" value="no"/>
 				<key key="motorcar" value="yes"/>
 				<key key="motorcycle" value="yes"/>
-				<space />
+				<space/>
 				<label text="Ukryte tagi: operator - Lidl, odblokowanie za pomocą aplikacji i na ekranie urządzenia, niezadaszony, dla motocykli i osobówek, nie dla ciężarówek"/>
+			</item>
+			<item name="Hamak" type="node" preset_name_label="true" icon="hamak.png">
+				<key key="leisure" value="hammock"/>
+				<text key="operator" text="Operator"/>
 			</item>
 		</group>
 		<group name="Sklepy gotowe">
@@ -482,9 +490,9 @@
 			</item>
 			<item name="Aldi" type="node,closedway" preset_name_label="true" icon="aldi.png">
 				<key key="shop" value="supermarket"/>
-				<key key="brand" value="ALDI"/>
+				<key key="brand" value="Aldi"/>
 				<key key="brand:wikidata" value="Q41171373"/>
-				<key key="name" value="ALDI"/>
+				<key key="name" value="Aldi"/>
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
@@ -780,7 +788,7 @@
 				<text key="wikimedia_commons" text="Wikimedia"/>
 				<combo key="historic" text="Typ zabytku" values="archaeological_site,boundary_stone,castle,city_gate,fort,memorial,monument,statue,house,manor,mine,mine_shaft,quarry,mine_adit,wreck,ship,citywalls,battlefield,castle_walls,warthworks,moat,wayside_cross,church,wayside_shrine,roman_road,railway_station,bridge,milestone,wall,well,boundary_marker,folly,building,industrial,ruins"/>
 				<text key="start_date" text="Data otwarcia"/>
-				<space />
+				<space/>
 				<label text="Obszary:"/>
 				<combo key="boundary" text="Obszar chroniony" values="protected_area" display_values="Tak" default=""/>
 				<text key="protect_class" text="Klasa ochrony (1a, 1b, 1 - 99)"/>
@@ -798,7 +806,7 @@
 				<text key="wikimedia_commons" text="Wikimedia"/>
 				<combo key="historic" text="Typ zabytku" values="archaeological_site,boundary_stone,castle,city_gate,fort,memorial,monument,statue,house,manor,mine,mine_shaft,quarry,mine_adit,wreck,ship,citywalls,battlefield,castle_walls,warthworks,moat,wayside_cross,church,wayside_shrine,roman_road,railway_station,bridge,milestone,wall,well,boundary_marker,folly,building,industrial,ruins"/>
 				<text key="start_date" text="Data otwarcia"/>
-				<space />
+				<space/>
 				<label text="Obszary:"/>
 				<combo key="boundary" text="Obszar chroniony" values="protected_area" display_values="Tak" default=""/>
 				<text key="protect_class" text="Klasa ochrony (1a, 1b, 1 - 99)"/>
@@ -816,7 +824,7 @@
 				<text key="wikimedia_commons" text="Wikimedia"/>
 				<combo key="historic" text="Typ zabytku" values="archaeological_site,boundary_stone,castle,city_gate,fort,memorial,monument,statue,house,manor,mine,mine_shaft,quarry,mine_adit,wreck,ship,citywalls,battlefield,castle_walls,warthworks,moat,wayside_cross,church,wayside_shrine,roman_road,railway_station,bridge,milestone,wall,well,boundary_marker,folly,building,industrial,ruins"/>
 				<text key="start_date" text="Data otwarcia"/>
-				<space />
+				<space/>
 				<label text="Obszary:"/>
 				<combo key="boundary" text="Obszar chroniony" values="protected_area" display_values="Tak" default=""/>
 				<text key="protect_class" text="Klasa ochrony (1a, 1b, 1 - 99)"/>
