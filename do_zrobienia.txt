@@ -1,3 +1,4 @@
 Agata Meble ,,Megaskrytka Agata" - automat paczkowy Agata Meble
 man_made=gantry - bramownica nad drogą
 conveying=yes/forward/backward - ruch schodów ruchomych 
+shop=camera - sklep fotograficzny
