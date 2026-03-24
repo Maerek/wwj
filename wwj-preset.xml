@@ -299,7 +299,7 @@
 				<space/>
 				<label text="Metody wypłaty:"/>
 				<check key="payment:coins" text="Monety" value_on="yes" value_off="no" default="off"/>
-				<check key="payment:notes" text="Wydruk (bon)" value_on="yes" value_off="no" default="on"/>
+				<check key="payment:notes" text="Banknoty" value_on="yes" value_off="no" default="off"/>
 				<check key="payment:debit_cards" text="Wypłata na kartę debetową" value_on="yes" value_off="no" default="off"/>
 				<check key="payment:token" text="Paragon/żeton z możliwością wymiany na gotówkę" value_on="yes" value_off="no" default="on"/>
 			</item>
