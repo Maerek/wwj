@@ -354,6 +354,14 @@
 				<key key="leisure" value="hammock"/>
 				<text key="operator" text="Operator"/>
 			</item>
+			<item name="Sklep fotograficzny" type="node,closedway" preset_name_label="true" icon="foto.png">
+				<key key="shop" value="camera"/>
+				<text key="brand" text="Marka"/>
+				<text key="name" text="Nazwa"/>
+				<text key="description" text="Opis"/>
+				<text key="opening_hours" text="Godziny otwarcia"/>
+				<text key="website" text="Strona internetowa"/>
+			</item>
 		</group>
 		<group name="Sklepy gotowe">
 			<item name="Action" pl.name="Action" type="node,closedway" preset_name_label="true" icon="action.png">
