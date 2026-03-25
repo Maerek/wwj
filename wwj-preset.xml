@@ -361,6 +361,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<link href="https://wiki.openstreetmap.org/wiki/Pl:Tag:shop%3Dcamera" text="Sklep fotograficzny na Wiki"/>
 			</item>
 		</group>
 		<group name="Sklepy gotowe">
