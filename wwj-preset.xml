@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Autor: Marek Kłaput -->
 <!-- v.2025.12.22.1 -->
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.9_2026-03-24">
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.10_2026-03-25">
 	<group name="Wszystkie w jednym">
 		<group name="Automaty paczkowe" icon="paczka.png">
 			<item name="Paczkomat InPost" icon="inpost.png" type="node,closedway" preset_name_label="true">
