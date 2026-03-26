@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Autor: Marek Kłaput -->
-<!-- v.2025.12.22.1 -->
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.10_2026-03-25">
+<!-- v.2026.03.26.1 -->
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.11_2026-03-26">
 	<group name="Wszystkie w jednym">
 		<group name="Automaty paczkowe" icon="paczka.png">
 			<item name="Paczkomat InPost" icon="inpost.png" type="node,closedway" preset_name_label="true">
@@ -363,7 +363,7 @@
 				<text key="website" text="Strona internetowa"/>
 				<link href="https://wiki.openstreetmap.org/wiki/Pl:Tag:shop%3Dcamera" text="Sklep fotograficzny na Wiki"/>
 			</item>
-			<item name="Punkt ładowania" type="node,closedway" preset_name_label="true" icon="ev.png"/>
+			<item name="Punkt ładowania" type="node,closedway" preset_name_label="true" icon="ev.png">
 				<key key="man_made" value="charge_point"/>
 				<text key="socket:type2" text="Liczba gniazd Type2 (białe C)"/>
 				<text key="socket:type2:output" text="Moc gniazda Type2"/>
