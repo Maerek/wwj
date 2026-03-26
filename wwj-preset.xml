@@ -363,6 +363,21 @@
 				<text key="website" text="Strona internetowa"/>
 				<link href="https://wiki.openstreetmap.org/wiki/Pl:Tag:shop%3Dcamera" text="Sklep fotograficzny na Wiki"/>
 			</item>
+			<item name="Punkt ładowania" type="node,closedway" preset_name_label="true" icon="ev.png"/>
+				<key key="man_made" value="charge_point"/>
+				<text key="socket:type2" text="Liczba gniazd Type2 (białe C)"/>
+				<text key="socket:type2:output" text="Moc gniazda Type2"/>
+				<text key="socket:type2_cable" text="Liczba gniazd Type2 z kablem (czarne C)"/>
+				<text key="socket:type2_cable:output" text="Moc gniazda Type2 z kablem"/>
+				<text key="socket:type2_combo" text="Liczba gniazd Type2 combo (CCS, czarne K, czarne L)"/>
+				<text key="socket:type2_combo:output" text="Moc gniazda Type2 combo"/>
+				<text key="socket:chademo" text="Liczba gniazd CHAdeMO (czarne M, czarne N)"/>
+				<text key="socket:chademo:output" text="Moc gniazda CHAdeMO"/>
+				<text key="socket:schuko" text="Liczba gniazd Schuko (domowe)"/>
+				<text key="socket:schuko" text="Moc gniazda Schuko"/>
+				<text key="ref" text="Numer referencyjny"/>
+				<texy key="capacity" text="Pojemność"/>
+			</item>
 		</group>
 		<group name="Sklepy gotowe">
 			<item name="Action" pl.name="Action" type="node,closedway" preset_name_label="true" icon="action.png">
