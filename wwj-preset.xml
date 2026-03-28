@@ -403,6 +403,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="ABC (Polska)" type="node,closedway" preset_name_label="true" icon="abc.png">
 				<key key="shop" value="convenience"/>
@@ -413,6 +414,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Carrefour (sklepik)" type="node,closedway" preset_name_label="true" icon="carrefour.jpg">
 				<key key="shop" value="convenience"/>
@@ -423,6 +425,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Carrefour Express" type="node,closedway" preset_name_label="true" icon="carrefour_express.png">
 				<key key="shop" value="convenience"/>
@@ -432,6 +435,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Circle K (sklep)" type="node,closedway" preset_name_label="true" icon="circlek.png">
 				<key key="shop" value="convenience"/>
@@ -442,6 +446,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Delikatesy Centrum (sklepik)" type="node,closedway" preset_name_label="true" icon="delikatesy_centrum.png">
 				<key key="shop" value="convenience"/>
@@ -452,6 +457,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Odido" type="node,closedway" preset_name_label="true" icon="odido.png">
 				<key key="shop" value="convenience"/>
@@ -462,6 +468,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Shell (sklep)" type="node,closedway" preset_name_label="true" icon="shell.png">
 				<key key="shop" value="convenience"/>
@@ -472,6 +479,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Spar (sklepik)" type="node,closedway" preset_name_label="true" icon="spar.png">
 				<key key="shop" value="convenience"/>
@@ -482,6 +490,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Spar Express" type="node,closedway" preset_name_label="true" icon="spar_express.png">
 				<key key="shop" value="convenience"/>
@@ -492,6 +501,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Społem (sklepik)" type="node,closedway" preset_name_label="true" icon="spolem.png">
 				<key key="shop" value="convenience"/>
@@ -502,6 +512,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Żabka" type="node,closedway" preset_name_label="true" icon="zabka.png">
 				<key key="shop" value="convenience"/>
@@ -514,6 +525,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 				<link href="https://www.zabka.pl/znajdz-sklep/" text="Mapa z godzinami otwarcia"/>
 			</item>
 			<item name="Aldi" type="node,closedway" preset_name_label="true" icon="aldi.png">
@@ -524,6 +536,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Auchan" type="node,closedway" preset_name_label="true" icon="auchan.png">
 				<key key="shop" value="supermarket"/>
@@ -534,6 +547,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Auchan Drive" type="node,closedway" preset_name_label="true" icon="auchan_drive.png">
 				<key key="shop" value="supermarket"/>
@@ -543,6 +557,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Biedronka" type="node,closedway" preset_name_label="true" icon="biedronka.jpg">
 				<key key="shop" value="supermarket"/>
@@ -553,6 +568,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Carrefour (supermarket)" type="node,closedway" preset_name_label="true" icon="carrefour.jpg">
 				<key key="shop" value="supermarket"/>
@@ -563,6 +579,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Carrefour Market" type="node,closedway" preset_name_label="true" icon="carrefour_market.png">
 				<key key="shop" value="supermarket"/>
@@ -573,6 +590,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Delikatesy Centrum (supermarket)" type="node,closedway" preset_name_label="true" icon="delikatesy_centrum.png">
 				<key key="shop" value="supermarket"/>
@@ -583,6 +601,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Dino" type="node,closedway" preset_name_label="true" icon="dino.png">
 				<key key="shop" value="supermarket"/>
@@ -593,6 +612,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Intermarché" type="node,closedway" preset_name_label="true" icon="intermarche.png">
 				<key key="shop" value="supermarket"/>
@@ -603,6 +623,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Intermarché Super" type="node,closedway" preset_name_label="true" icon="intermarche_super.png">
 				<key key="shop" value="supermarket"/>
@@ -613,6 +634,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Kaufland" type="node,closedway" preset_name_label="true" icon="kaufland.png">
 				<key key="shop" value="supermarket"/>
@@ -623,6 +645,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Lidl" type="node,closedway" preset_name_label="true" icon="lidl.png">
 				<key key="shop" value="supermarket"/>
@@ -633,6 +656,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Netto" type="node,closedway" preset_name_label="true" icon="netto.png">
 				<key key="shop" value="supermarket"/>
@@ -643,6 +667,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Polo Market" type="node,closedway" preset_name_label="true" icon="polomarket.png">
 				<key key="shop" value="supermarket"/>
@@ -653,6 +678,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Spar (supermarket)" type="node,closedway" preset_name_label="true" icon="spar.png">
 				<key key="shop" value="supermarket"/>
@@ -663,6 +689,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Społem (supermarket)" type="node,closedway" preset_name_label="true" icon="spolem.png">
 				<key key="shop" value="supermarket"/>
@@ -673,6 +700,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Stokrotka" type="node,closedway" preset_name_label="true" icon="stokrotka.png">
 				<key key="shop" value="supermarket"/>
@@ -683,6 +711,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Stokrotka Market" type="node,closedway" preset_name_label="true" icon="stokrotka_market.png">
 				<key key="shop" value="supermarket"/>
@@ -692,6 +721,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Stokrotka Optima" type="node,closedway" preset_name_label="true" icon="stokrotka_optima.png">
 				<key key="shop" value="supermarket"/>
@@ -701,6 +731,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Groszek" type="node,closedway" preset_name_label="true" icon="groszek.png">
 				<key key="shop" value="convenience"/>
@@ -711,6 +742,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Easy Auchan" type="node,closedway" preset_name_label="true" icon="auchan.png">
 				<key key="shop" value="convenience"/>
@@ -721,6 +753,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Stokrotka Express" type="node,closedway" preset_name_label="true" icon="stokrotka_express.png">
 				<key key="shop" value="convenience"/>
@@ -730,6 +763,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Euro Sklep" type="node,closedway" preset_name_label="true" icon="euro_sklep.png">
 				<key key="shop" value="convenience"/>
@@ -740,6 +774,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Lewiatan (sklepik)" type="node,closedway" preset_name_label="true" icon="lewiatan.png">
 				<key key="shop" value="convenience"/>
@@ -750,6 +785,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Lewiatan (supermarket)" type="node,closedway" preset_name_label="true" icon="lewiatan.png">
 				<key key="shop" value="supermarket"/>
@@ -760,6 +796,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Leroy Merlin" type="node,closedway" preset_name_label="true" icon="leroymerlin.png">
 				<key key="shop" value="doityourself"/>
@@ -770,6 +807,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="OBI" type="node,closedway" preset_name_label="true" icon="obi.png">
 				<key key="shop" value="doityourself"/>
@@ -780,6 +818,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Bricomarché" type="node,closedway" preset_name_label="true" icon="bricomarche.png">
 				<key key="shop" value="doityourself"/>
@@ -790,6 +829,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Castorama" type="node,closedway" preset_name_label="true" icon="castorama.png">
 				<key key="shop" value="doityourself"/>
@@ -800,6 +840,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 		</group>
 		<group name="Zabytki">
@@ -868,6 +909,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="BP" icon="bp.png" type="node,closedway" preset_name_label="true">
 				<key key="amenity" value="fuel"/>
@@ -878,6 +920,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Carrefour (stacja paliw)" icon="carrefour.jpg" type="node,closedway" preset_name_label="true">
 				<key key="amenity" value="fuel"/>
@@ -888,6 +931,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Intermarché (stacja paliw)" icon="intermarche.png" type="node,closedway" preset_name_label="true">
 				<key key="amenity" value="fuel"/>
@@ -898,6 +942,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Lotos" icon="lotos.png" type="node,closedway" preset_name_label="true">
 				<key key="amenity" value="fuel"/>
@@ -908,6 +953,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="MOL" icon="mol.png" type="node,closedway" preset_name_label="true">
 				<key key="amenity" value="fuel"/>
@@ -918,6 +964,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Orlen" icon="orlen.png" type="node,closedway" preset_name_label="true">
 				<key key="amenity" value="fuel"/>
@@ -928,6 +975,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Shell" icon="shell.png" type="node,closedway" preset_name_label="true">
 				<key key="amenity" value="fuel"/>
@@ -938,6 +986,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Circle K" icon="circlek.png" type="node,closedway" preset_name_label="true">
 				<key key="amenity" value="fuel"/>
@@ -947,6 +996,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 		</group>
 	</group>
