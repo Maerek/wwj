@@ -379,7 +379,7 @@
 				<texy key="capacity" text="Pojemność"/>
 			</item>
 			<item name="Kasy samoobsługowe" type="node,closedway" preset_name_label="true" icon="samoobsluga.png">
-				<combo key="self_checkout" values="yes,no,only" display_values="Tak,Nie,Tylko" text="Samoobsługa" default=""/>
+				<combo key="self_checkout" values="yes,no,only" display_values="Tak,Nie,Tylko" text="Samoobsługa" default="" match="key!"/>
 			</item>
 		</group>
 		<group name="Sklepy gotowe">
