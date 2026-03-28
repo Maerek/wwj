@@ -778,7 +778,7 @@
 			</item>
 			<item name="Lewiatan (sklepik)" type="node,closedway" preset_name_label="true" icon="lewiatan.png">
 				<key key="shop" value="convenience"/>
-				<key key="brand" value="Lewiatan (sklep)"/>
+				<key key="brand" value="Lewiatan"/>
 				<key key="brand:wikidata" value="Q11755396"/>
 				<key key="brand:wikipedia" value="pl:Lewiatan (sieć handlowa)"/>
 				<key key="name" value="Lewiatan"/>
