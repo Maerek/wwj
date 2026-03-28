@@ -392,6 +392,7 @@
 				<text key="description" text="Opis"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
 			<item name="Dealz" type="node,closedway" preset_name_label="true" icon="dealz.png">
 				<key key="shop" value="variety_store"/>
