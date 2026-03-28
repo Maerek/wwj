@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Autor: Marek Kłaput -->
-<!-- v.2026.03.26.1 -->
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.11_2026-03-26">
+<!-- v.2026.03.28.1 -->
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.12_2026-03-28">
 	<group name="Wszystkie w jednym">
 		<group name="Automaty paczkowe" icon="paczka.png">
 			<item name="Paczkomat InPost" icon="inpost.png" type="node,closedway" preset_name_label="true">
@@ -377,6 +377,9 @@
 				<text key="socket:schuko" text="Moc gniazda Schuko"/>
 				<text key="ref" text="Numer referencyjny"/>
 				<texy key="capacity" text="Pojemność"/>
+			</item>
+			<item name="Kasy samoobsługowe" type="node,closedway" preset_name_label="true" icon="samoobsluga.png">
+				<combo key="self_checkout" values="yes,no,only" display_values="Tak,Nie,Tylko" text="Samoobsługa" default=""/>
 			</item>
 		</group>
 		<group name="Sklepy gotowe">
