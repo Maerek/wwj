@@ -843,6 +843,17 @@
 				<text key="website" text="Strona internetowa"/>
 				<preset_link preset_name="Kasy samoobsługowe"/>
 			</item>
+			<item name="Rossmann" type="node,closedway" preset_name_label="true" icon="rossmann.png">
+				<key key="shop" value="chemist"/>
+				<key key="brand" value="Rossmann"/>
+				<key key="brand:wikidata" value="Q316004"/>
+				<key key="brand:wikipedia" value="pl:Rossmann"/>
+				<key key="name" value="Rossmann"/>
+				<text key="description" text="Opis"/>
+				<text key="opening_hours" text="Godziny otwarcia"/>
+				<text key="website" text="Strona internetowa"/>
+				<preset_link preset_name="Kasy samoobsługowe"/>
+			</item>
 		</group>
 		<group name="Zabytki">
 			<item name="Zabytek UNESCO" type="node,way,closedway,area,relation" icon="Icon_nid.png" preset_name_label="true">
