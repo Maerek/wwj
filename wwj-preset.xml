@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Autor: Marek Kłaput -->
-<!-- v.2026.03.28.1 -->
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.12_2026-03-28">
+<!-- v.2026.03.30.1 -->
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.13_2026-03-30">
 	<group name="Wszystkie w jednym">
 		<group name="Automaty paczkowe" icon="paczka.png">
 			<item name="Paczkomat InPost" icon="inpost.png" type="node,closedway" preset_name_label="true">
@@ -288,6 +288,7 @@
 				<key key="amenity" value="vending_machine"/>
 				<key key="vending" value="bottle_return"/>
 				<text key="operator" text="Operator"/>
+				<text key="brand" text="Marka"/>
 				<text key="opening_hours" text="Godziny otwarcia"/>
 				<check key="wheelchair" text="Wózki inwalidzkie" value_on="yes" value_off="no"/>
 				<check key="location" text="Wewnątrz" value_on="indoor" disable_off="true"/>
