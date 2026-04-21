@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Autor: Marek Kłaput -->
-<!-- v.2026.03.30.1 -->
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.13_2026-03-30">
+<!-- v.2026.04.21.1 -->
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="1.14_2026-04-21">
 	<group name="Wszystkie w jednym">
 		<group name="Automaty paczkowe" icon="paczka.png">
 			<item name="Paczkomat InPost" icon="inpost.png" type="node,closedway" preset_name_label="true">
@@ -381,6 +381,15 @@
 			</item>
 			<item name="Kasy samoobsługowe" type="node,closedway" preset_name_label="true" icon="samoobsluga.png">
 				<combo key="self_checkout" values="yes,no,only" display_values="Tak,Nie,Tylko" text="Samoobsługa" default="" match="key!"/>
+			</item>
+			<item name="Pasmanteria" type="node,closedway" preset_name_label="true" icon="pasmanteria.png">
+				<key key="shop" value="sewing"/>
+				<text key="brand" text="Marka"/>
+				<text key="name" text="Nazwa"/>
+				<text key="description" text="Opis"/>
+				<text key="opening_hours" text="Godziny otwarcia"/>
+				<text key="website" text="Strona internetowa"/>
+				<link href="https://wiki.openstreetmap.org/wiki/Pl:Tag:shop%3Dsewing" text="Sklep fotograficzny na Wiki"/>
 			</item>
 		</group>
 		<group name="Sklepy gotowe">
