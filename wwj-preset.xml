@@ -6,6 +6,7 @@
 		<group name="Automaty paczkowe" icon="paczka.png">
 			<item name="Paczkomat InPost" icon="inpost.png" type="node,closedway" preset_name_label="true">
 				<key key="amenity" value="parcel_locker"/>
+				<key key="app_operated" value="yes"/>
 				<key key="brand" value="Paczkomat InPost"/>
 				<key key="brand:wikidata" value="Q110970254"/>
 				<key key="operator" value="InPost"/>
@@ -21,6 +22,7 @@
 			</item>
 			<item name="Lodówkomat InPost" icon="inpost.png" type="node,closedway" preset_name_label="true">
 				<key key="amenity" value="parcel_locker"/>
+				<key key="app_operated" value="yes"/>
 				<key key="brand" value="Lodówkomat InPost"/>
 				<key key="brand:wikidata" value="Q126284966"/>
 				<key key="operator" value="InPost"/>
@@ -68,6 +70,7 @@
 			</item>
 			<item name="Allegro OneBox" icon="allegro.png" type="node,closedway" preset_name_label="true">
 				<key key="amenity" value="parcel_locker"/>
+				<key key="app_operated" value="yes"/>
 				<key key="brand" value="Allegro One Box"/>
 				<key key="brand:wikidata" value="Q110738715"/>
 				<key key="operator" value="UPS"/>
