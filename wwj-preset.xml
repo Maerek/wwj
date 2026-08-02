@@ -55,6 +55,7 @@
 			</item>
 			<item name="Orlen Paczka" icon="orlen_paczka.png" type="node,closedway" preset_name_label="true">
 				<key key="amenity" value="parcel_locker"/>
+				<key key="app_operated" value="yes"/>
 				<key key="brand" value="Orlen Paczka"/>
 				<key key="brand:wikidata" value="Q110457879"/>
 				<key key="operator" value="Orlen"/>
