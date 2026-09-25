@@ -395,6 +395,14 @@
 				<text key="website" text="Strona internetowa"/>
 				<link href="https://wiki.openstreetmap.org/wiki/Pl:Tag:shop%3Dsewing" text="Sklep fotograficzny na Wiki"/>
 			</item>
+			<item name="Przystanek Kraków" type="node,closedway" preset_name_label="true" icon="przystanek_krakow.png">
+				<key key="operator" value="Zarząd Dróg Miasta Krakowa"/>
+				<key key="operator:short" value="ZDMK"/>
+				<key key="operator:wikidata" value="Q110401964"/>
+				<key key="network" value="Komunikacja Miejska w Krakowie"/>
+				<key key="network:short" value="KMK"/>
+				<key key="network:wikidata" value="Q141244075"/>
+			</item>
 		</group>
 		<group name="Sklepy gotowe">
 			<item name="Action" pl.name="Action" type="node,closedway" preset_name_label="true" icon="action.png">
