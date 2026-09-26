@@ -404,6 +404,7 @@
 				<key key="network:wikidata" value="Q141244075"/>
 				<text key="name" text="Nazwa"/>
 				<text key="old_name" text="Stara nazwa"/>
+				<text key="ref" text="Numer referencyjny"/>
 			</item>
 		</group>
 		<group name="Sklepy gotowe">
