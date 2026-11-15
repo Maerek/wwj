@@ -277,7 +277,7 @@
 			</item>
 			<item name="Kamera monitoringu" type="node" preset_name_label="true" icon="kamera.png">
 				<key key="man_made" value="surveillance"/>
-				<combo key="surveillance:type" text="Rodzaj kamery" values="camera, ALPR" display_values="zwykła kamera,kamera z automatycznym odczytem rejestracji samochodowych"/>
+				<combo key="surveillance:type" text="Rodzaj kamery" values="camera,ALPR" display_values="zwykła kamera,kamera z automatycznym odczytem rejestracji samochodowych"/>
 				<text key="height" text="Wysokość motażu"/>
 				<text key="operator" text="Operator"/>
 				<combo key="surveillance" text="Miejsce objęte monitoringiem" values="indoor,outdoor,public,average_speed" display_values="wewnętrzna,zewnętrzna,publiczna (podgląd online),do mierzenia prędkości"/>
